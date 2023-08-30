@@ -21,7 +21,7 @@ body {
 }
 #weather .box input {
   border-radius: 20px;
-  padding: 8px 0;
+  padding: 8px 3px;
 }
 #weather .box #btn {
   border-radius: 20px;
