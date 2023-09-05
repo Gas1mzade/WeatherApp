@@ -7,6 +7,7 @@ body {
   margin: 100px 0;
 }
 #weather .box {
+  min-width: 250px;
   border-radius: 20px;
   width: 80%;
   background-color: #a4caff;
@@ -21,7 +22,7 @@ body {
 }
 #weather .box input {
   border-radius: 20px;
-  padding: 8px 3px;
+  padding: 8px 10px;
 }
 #weather .box #btn {
   border-radius: 20px;
@@ -33,4 +34,9 @@ body {
   display: block;
   color: #ffffff;
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  #weather .box {
+    max-width: 250px;
+  }
 }/*# sourceMappingURL=style.css.map */
